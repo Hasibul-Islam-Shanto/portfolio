@@ -4,6 +4,7 @@ import { FaGithub } from "react-icons/fa";
 import { projects } from "../constants/projects";
 import { Button } from "./ui/MovingBorder";
 import Link from "next/link";
+import MagicButton from "./ui/MagicButton";
 
 const Projects = () => {
   return (
@@ -30,7 +31,7 @@ const Projects = () => {
               <img
                 src={item.img}
                 alt={item.title}
-                className="p-5 rounded-3xl"
+                className="p-3 rounded-3xl"
               />
               <div className=" px-5 flex flex-col justify-start items-start space-y-2">
                 <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1">
@@ -69,6 +70,15 @@ const Projects = () => {
               </div>
             </Button>
           ))}
+        </div>
+        <div className="w-full flex justify-center items-center">
+          <a href="https://github.com/Hasibul-Islam-Shanto">
+            <MagicButton
+              title="Show More On -->"
+              icon={<FaGithub className="h-6 w-6" />}
+              position="right"
+            />
+          </a>
         </div>
       </div>
     </>
