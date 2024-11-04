@@ -1,5 +1,6 @@
 import Experience from "@/components/Experience";
 import Hero from "@/components/Hero";
+import Projects from "@/components/Projects";
 
 const Home = () => {
   return (
@@ -7,6 +8,7 @@ const Home = () => {
       <div className="max-w-7xl w-full">
         <Hero />
         <Experience />
+        <Projects />
       </div>
     </main>
   );
