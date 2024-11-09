@@ -19,8 +19,8 @@ const Experience = () => {
   });
   return (
     <>
-      <section className="w-full flex flex-col justify-start items-center xl:mt-44 lg:mt-0 mt-20">
-        <div className="w-full flex justify-center items-center sm:mt-20 xs:mt-20">
+      <section className="w-full flex flex-col justify-start items-center">
+        <div className="w-full flex justify-center items-center mt-32 xl:mt-64">
           <h3 className="text-white font-black md:text-[50px] sm:text-[50px] xs:text-[40px] text-[30px]">
             Work <span className="text-purple">Experience</span>
           </h3>
