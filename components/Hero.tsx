@@ -1,8 +1,10 @@
+"use client";
 import React from "react";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 import MagicButton from "./ui/MagicButton";
 import { FaLocationArrow } from "react-icons/fa";
+import { downloadPdf } from "@/utils/helper";
 
 const Hero = () => {
   return (
@@ -40,13 +42,13 @@ const Hero = () => {
               Hi! I&apos;m Shanto, a Front-End Engineer.
             </p>
 
-            <a href="#">
+            <button onClick={() => downloadPdf("/my-cv-updated.pdf")}>
               <MagicButton
-                title="Show my work"
+                title="My CV"
                 icon={<FaLocationArrow />}
                 position="right"
               />
-            </a>
+            </button>
           </div>
         </div>
       </div>
