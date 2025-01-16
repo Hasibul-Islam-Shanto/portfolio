@@ -42,9 +42,9 @@ const Hero = () => {
               Hi! I&apos;m Shanto, a Front-End Engineer.
             </p>
 
-            <button onClick={() => downloadPdf("/my-cv-updated.pdf")}>
+            <button onClick={() => downloadPdf("/resume.pdf")}>
               <MagicButton
-                title="My CV"
+                title="My Resume"
                 icon={<FaLocationArrow />}
                 position="right"
               />
