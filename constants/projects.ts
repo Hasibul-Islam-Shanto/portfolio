@@ -15,6 +15,18 @@ export const projects = [
   },
   {
     id: 2,
+    title: "Hi-Editor",
+    description: [
+      "A user-friendly and responsive editor that supports many programming languages, lets you run code instantly, save snippets, and collaborate easily.",
+      "Developed using the latest tools like Next.js 15, React 19, Convex, Monaco Editor, Clerk for login, and Lemon Squeezy for handling payments.",
+      "Offers personal profiles, a snippet library, Pro features, and smooth Vercel deployment, with support for comments, private snippets, and code history.",
+    ],
+    img: "/projects/hi-editor.png",
+    iconLists: ["/next.svg", "/react.svg", "/ts.svg"],
+    link: "https://github.com/Hasibul-Islam-Shanto/hi-editor",
+  },
+  {
+    id: 3,
     title: "E-commerce",
     description: [
       "It’s a full-stack E-Commerce web application.",
@@ -32,7 +44,7 @@ export const projects = [
     link: "https://github.com/smalhasib/ecommerce",
   },
   {
-    id: 3,
+    id: 4,
     title: "Ticketing System with Web3",
     description: [
       "Developed a decentralized ticketing system using React.js, Ether.js, Solidity, and IPFS database, enabling secure and transparent transactions.",
@@ -44,7 +56,7 @@ export const projects = [
     link: "https://github.com/Hasibul-Islam-Shanto/project350",
   },
   {
-    id: 4,
+    id: 5,
     title: "Chat-Application",
     description: [
       "Created a social app, Share, with Next.js, Firebase, Tailwind CSS, and Google OAuth for user authentication.",
